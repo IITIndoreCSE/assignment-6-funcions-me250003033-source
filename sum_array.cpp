@@ -4,7 +4,11 @@ using namespace std;
 
 int sumArray(const vector<int>& arr) {
     // TODO: complete the function as per instructions
-    
+    int sum=0;
+    int size=arr.size();
+    for (int i=0; i<size ;i++){
+        sum+= arr[i];
+    }return sum;
 }
 
 int main() {
